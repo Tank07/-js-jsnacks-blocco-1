@@ -1,7 +1,7 @@
-let numeroUno = prompt(`Inserisci il primo numero`)
+let numeroUno = parseInt (prompt (`Inserisci il primo numero`));
 console.log(numeroUno)
 
-let numeroDue = prompt(`Inserisci il secondo numero`)
+let numeroDue = parseInt (prompt (`Inserisci il secondo numero`));
 console.log(numeroDue)
 
 if (numeroUno > numeroDue){
