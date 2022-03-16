@@ -6,10 +6,10 @@ console.log(parolaDue, parolaDue.length)
 
 if (parolaUno.length > parolaDue.length){
     console.log(parolaUno, parolaDue)
-    document.getElementById("esito").innerHTML = `<div>La prima parola inserita: <span class="blue">"${parolaUno}"</span> è la più lunga</span> con ben ${parolaUno.length} lettere </div>`;
+    document.getElementById("esito").innerHTML = `<div>La prima parola inserita: <span class="blue">"${parolaUno}"</span> è la più lunga</span> con ben ${parolaUno.length} lettere rispetto alla seconda parola inserita: <span class="blue">"${parolaDue}"</span> che è più corta </span> con ben ${parolaDue.length} lettere</div>`;
 } else if (parolaUno.length < parolaDue.length){
     console.log(parolaDue, parolaUno)
-    document.getElementById("esito").innerHTML = `<div>La seconda parola inserita: <span class="blue">"${parolaDue}"</span> è la più lunga</span> con ben ${parolaDue.length} lettere </div>`;
+    document.getElementById("esito").innerHTML = `<div>La seconda parola inserita: <span class="blue">"${parolaDue}"</span> è la più lunga</span> con ben ${parolaDue.length} lettere rispetto alla seconda parola inserita: <span class="blue">"${parolaDue}"</span> che è più corta </span> con ben ${parolaUno.length} lettere</div>`;
 } else {
-    document.getElementById("esito").innerHTML = `<div>La prima parola inserita <span class="blue">"${parolaUno}"</span> ed la seconda parola inserita <span class="blue">"${parolaDue}"</span> sono uguali</span> con rispettivamente con ben ${parolaUno.length} e ${parolaDue.length} lettere  lettere  </div>`;
+    document.getElementById("esito").innerHTML = `<div>La prima parola inserita <span class="blue">"${parolaUno}"</span> ed la seconda parola inserita <span class="blue">"${parolaDue}"</span> sono uguali</span> con rispettivamente con ben ${parolaUno.length} e ${parolaDue.length} lettere </div>`;
 }
